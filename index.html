@@ -32,9 +32,9 @@
 		<div class="links">
 
 			<ul>
-				<li><a href="#">WORK</a></li>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">RESUME</a></li>
+				<li><a href="#">Work</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Resume</a></li>
 			</ul>
 
 		</div>
@@ -69,6 +69,7 @@
 		</div>
 		<div class="container">
 			<div class="column">
+
 				<h2> DESIGN PROJECT </h2>
 
 				<svg width="211" height="3" viewBox="0 0 211 3" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,22 +86,35 @@
 					</defs>
 					</svg>
 
-
-
-
 				<p> Designing a new proposal for Resolute Labs landing page.</p>
-				<a href="#">Read More</a>
+				<a href="#"><span>Read More</span> </a>
+				<video width="246" height="148" controls>
+					<source src="coin.mp4" type="video/mp4">
+				  </video>
 			</div>
-			<div class="column">
+			<div class="column" id="whitebox">
 				<h2> DESIGN SPRINT </h2>
-				<p> Perfecting the menu page for the website.</p>
+				<p class="desc"> Perfecting the menu page for the <img src="logo_tims.svg"> website. </p>
 			</div>
-			<div class="column">
+			<div class="column" id="bluebox">
 				<h2> MUSIC APP </h2>
 				<p> This is third column of our grid system</p>
 			</div>
 		</div>
 	</div>
+
+	<script src="main.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+
+
+	
 </body>
 
 </html>
