@@ -116,6 +116,8 @@ ul {
   font-family: 'DM Serif Text', serif;
   font-size: 40px;
   margin-bottom: 0px;
+  padding-left: 120px;
+  margin-top: 140px;
 }
 
 .main h3
@@ -123,6 +125,7 @@ ul {
   font-family: 'DM Serif Text', serif;
   font-size: 19px;
   margin-bottom: 0px;
+  padding-left: 120px;
 }
 
 .main span {
@@ -137,20 +140,22 @@ ul {
 .sub {
   font-family: 'Comfortaa', cursive;
   font-size: 18px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
   color: #8188A2;
+  padding-left: 127px;
+  padding-top: 50px;
 }
 
 .container
 
 {
     font-family: 'Comfortaa', cursive;
-    font-size: 14px; 
+    font-size: 12px; 
     display: flex;
     flex-direction: row;
     align-items: stretch;
     align-content: space-between;
     justify-content: space-evenly;
+    padding-left: 120px;
     
 }
 
@@ -158,8 +163,39 @@ ul {
 {
 margin-right: 20px;
     width: 300px;
-    background-color: #cccccc;
-    text-align: center;
+    background-color: #FFF4F2;
+    text-align: left;
     border-radius: 8%;
+    padding-left: 15px;
 }
 
+#whitebox 
+{
+  background-color: #FFFFFF;
+  border-style: outset;
+}
+
+#bluebox 
+{
+  background-color: #324CAA;
+}
+
+.desc
+{
+  display: flex;
+
+}
+
+.column h2 span {
+  color:  #EC5D4F; 
+  font-family:'Comfortaa', cursive;
+
+  opacity: 100%;
+}
+
+.column a span {
+  color:  #EC5D4F; 
+  font-family:'Comfortaa', cursive;
+  opacity: 100%;
+}
+}
