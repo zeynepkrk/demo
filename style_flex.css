@@ -179,6 +179,11 @@ margin-right: 20px;
 {
   background-color: #324CAA;
 }
+.column p span
+{
+  color:  #DC3333; 
+  opacity: 60%;
+}
 
 .desc
 {
@@ -198,3 +203,4 @@ margin-right: 20px;
   font-family:'Comfortaa', cursive;
   opacity: 100%;
 }
+
